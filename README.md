@@ -34,7 +34,7 @@ streamlit run app.py
 5. Enter Job posting URL
 6. Create cover letter
 
-## :streamlit: → Demo App
+## 🔖 Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easycover.streamlit.app/)
 
