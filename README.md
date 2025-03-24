@@ -45,7 +45,7 @@ streamlit run app.py
 4. Create cover letter
 
 
-### To set the OpenAI and Firecrawl API key in Streamlit Community Cloud, set the API keys as an environment variable in Streamlit:
+# To set the OpenAI and Firecrawl API key in Streamlit Community Cloud, set the API keys as an environment variable in Streamlit:
 
 1. At the lower right corner, click on `< Manage app` then click on the vertical "..." followed by clicking on `Settings`.
 2. This brings the **App settings**, next click on the `Secrets` tab and paste the API keys into the text box as follows:
