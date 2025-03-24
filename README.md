@@ -1,4 +1,4 @@
-# 📝 EasyCover AI
+# ✨ EasyCover AI
 
 [![Python 3.13+](https://img.shields.io/badge/python-3.13+-blue.svg)](https://www.python.org/downloads/)
 [![Streamlit](https://img.shields.io/badge/streamlit-1.43.2-FF4B4B.svg)](https://streamlit.io)
@@ -34,7 +34,7 @@ streamlit run app.py
 5. Enter Job posting URL
 6. Create cover letter
 
-## Demo App
+## :streamlit: Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easycover.streamlit.app/)
 
