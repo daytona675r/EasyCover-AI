@@ -19,8 +19,39 @@ An AI-powered tool that generates customized cover letters by analyzing your res
 ## 🛠️ Quick Start
 
 1. Clone the repository
-2. Install dependencies: npm install
+
+2. Run it locally
+
+```sh
+virtualenv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run app.py
+```
+
 3. Add your OpenAI and Firecrawl API key on the left
 4. Upload resume
 5. Enter Job posting URL
 6. Create cover letter
+
+## Demo App
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://easycover.streamlit.app/)
+
+
+1. Add your OpenAI and Firecrawl API key on the left
+2. Upload resume
+3. Enter Job posting URL
+4. Create cover letter
+
+
+### To set the OpenAI and Firecrawl API key in Streamlit Community Cloud, set the API keys as an environment variable in Streamlit:
+
+1. At the lower right corner, click on `< Manage app` then click on the vertical "..." followed by clicking on `Settings`.
+2. This brings the **App settings**, next click on the `Secrets` tab and paste the API keys into the text box as follows:
+
+```sh
+OPENAI_API_KEY='xxxxxxxxxx'
+FIRECRAWL_API_KEY='xxxxxxxxxx'
+```
+
